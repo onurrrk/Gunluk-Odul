@@ -2,10 +2,10 @@
 Type: Streak
 debug: false
 forceOpen: true
-rewardSound: "LEVEL_UP"
+rewardSound: "ENTITY_PLAYER_LEVELUP"
 Rewards:
    first:
-      material: STORAGE_MINECART
+      material: CHEST_MINECART
       tookedMaterial: MINECART
       firework:
          deploy: true
@@ -22,7 +22,7 @@ Rewards:
       commands:
       - "msg %player% tebrikler!"
    second:
-      material: STORAGE_MINECART
+      material: CHEST_MINECART
       tookedMaterial: MINECART
       firework:
          deploy: true
@@ -39,7 +39,7 @@ Rewards:
       commands:
       - "msg %player% tebrikler!"
    third:
-      material: STORAGE_MINECART
+      material: CHEST_MINECART
       tookedMaterial: MINECART
       firework:
          deploy: true
@@ -56,7 +56,7 @@ Rewards:
       commands:
       - "msg %player% tebrikler!"
    fourth:
-      material: STORAGE_MINECART
+      material: CHEST_MINECART
       tookedMaterial: MINECART
       firework:
          deploy: true
@@ -73,7 +73,7 @@ Rewards:
       commands:
       - "msg %player% tebrikler!"
    fifth:
-      material: STORAGE_MINECART
+      material: CHEST_MINECART
       tookedMaterial: MINECART
       firework:
          deploy: true
@@ -90,7 +90,7 @@ Rewards:
       commands:
       - "msg %player% tebrikler!"
    sixth:
-      material: STORAGE_MINECART
+      material: CHEST_MINECART
       tookedMaterial: MINECART
       firework:
          deploy: true
@@ -110,7 +110,7 @@ Rewards:
       commands:
       - "msg %player% tebrikler!"
    seventh:
-      material: STORAGE_MINECART
+      material: CHEST_MINECART
       tookedMaterial: MINECART
       requirement:
          statistic_hours_played: 200
